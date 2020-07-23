@@ -1,6 +1,6 @@
 # Site settings
 title: 타이틀 쓰기
-SEOTitle: Minki's Blog
+SEOTitle: Minki Blog
 header-img: img/home-bg.jpg
 email: atunh9988@naver.com
 description: "안녕하세요. 김민기입니다."
@@ -70,7 +70,7 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_track_id: 'UA-163576297-1'            # Format: UA-xxxxxx-xx
 ga_domain: https://minkithub.github.io/
 
 
