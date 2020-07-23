@@ -14,7 +14,7 @@ future: true
 # SNS settings
 RSS: false
 # weibo_username:     huxprohihu_username:     huxpro
-github_username:    Minkithub
+github_username:    minkithub
 # twitter_username:   huxpro
 facebook_username:  UOSMinki
 #linkedin_username:  firstname-lastname-idxxxx
