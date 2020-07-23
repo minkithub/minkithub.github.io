@@ -65,7 +65,7 @@ cost 함수는 선형회귀 분석에서 실제값과 회귀값의 차이인 '�
 
 ## 3-1. Gradient Descent
 
-<center><img src="https://github.com/Minkithub/minki.github.io/blob/master/assets/images/all_deaplearning/part1/gd.png?raw=true" width="70%"></center>
+<img src="/img/all_deaplearning/part1/gd.png" style="width: 400px;"/>
 
 처음에도 말했듯이 선형 회귀의 목적은 Cost 값을 최소로 만드는 W, b를 찾는 것입니다. 그리고 많은 종류의 머신러닝, 딥러닝 모델에서 해당 과정을 통해 흔히 경사하강법, Gradient Descent를 사용합니다. 경사하강법 설명을 위해
 ```tf.train.GradientDescentOptimizer```를 파이썬 코드로 풀어서 같이 보도록 하겠습니다.
@@ -88,7 +88,7 @@ update = W.assign(descent)
 이제 위 코드에서 가장 중요한 ```gradient```를 설명해드리겠습니다. 많은 딥러닝, 머신러닝 모델들이 최저인 cost를 찾기 위해 '미분'을 이용합니다. 그 이유는 고등학교 수학시간에서 배웠듯이 최저점일수록 함수의 기울기가
 0이 될 확률이 높기 때문입니다. 자 그럼 이제 cost 함수를 미분해보겠습니다.
 
-<center><img src="https://github.com/Minkithub/minki.github.io/blob/master/assets/images/all_deaplearning/part1/formula_dif.png?raw=true" width="360px" height="226.234px"></center>
+<img src="/img/all_deaplearning/part1/formula_dif.png" style="width: 400px;"/>
 
 위의 사진은 cost함수 미분 과정을 차례대로 보여드린 것입니다. 눈썰미가 있으신 분들은 알아보셨겠지만 위 코드의 ```gradient```는 밑의 미분 값을 의미하는 코드임을 알 수 있습니다.
 
@@ -141,7 +141,7 @@ plt.plot(step_list, cost_list)
 plt.show()
 ```
 
-<center><img src="https://github.com/Minkithub/minki.github.io/blob/master/assets/images/all_deaplearning/part1/step_cost.png?raw=true" width="360px" height="226.234px"></center>
+<img src="/img/all_deaplearning/part1/step_cost.png" style="width: 400px;"/>
 
 또한 cost 값 역시 학습이 진행될 수록 0으로 수렴하고 있는 것을 보실 수 있습니다. 이해에 도움이 되셨길 바라면서 전체 코드를 끝으로 글을 마무리 하겠습니다.
 

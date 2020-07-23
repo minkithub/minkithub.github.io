@@ -32,7 +32,7 @@ Multinomial Classification의 이름에서 알 수 있듯이, Multinomial Classi
 
 위 링크에서 Logistic Regression을 보셨다면, binary 분류를 위해서는 하나의 임계치값을 적용해서 크면 True, 작으면 False라고 출력하면 된다는 것을 아셨을 것입니다. 그런데 분류가 세 가지 이상이라면, 하나의 임계치값만으로 분류하는 것이 불가능합니다. 그래서 등장한게 최종 출력을 재조정해주는 **Softmax 함수**입니다. 우선 Softmax의 개념을 잘 설명해줄 수 있는 그림을 보겠습니다.
 
-{% include figure image_path="/assets/images//all_deaplearning/part4/softmax.jpg" caption="sigmoid와 softmax 적용 과정"%}
+<img src="/img/all_deaplearning/part4/softmax.jpg" style="width: 800px;"/>
 
 이 그림에서 softmax의 역할은 Z의 출력값을 각각의 **확률값**으로 변환해주어 확률값 arrary를 생성해주는 것입니다. 이 그림을 순서대로 설명하면 다음과 같습니다.
 
@@ -57,7 +57,6 @@ softmax에 $$e$$를 취하는 것은 가중치를 준다고 생각하시면 됩�
 ### 3-2. softmax 적용
 
 ![](/img/all_deaplearning/part4/formula.png)
-<!-- <img src="/img/all_deaplearning/part4/formula.png" style="width: 400px;"/> -->
 
 최종적으로 출력된 $$Z_j$$를 전체 $$Z_j$$로 나누어 줌으로써 각각의 확률값을 구해줍니다. 이로써 softmax의 프로세스가 끝나게 됩니다.
 
@@ -107,7 +106,6 @@ xy_data.head()
 ```
 
 ![](/img/all_deaplearning/part4/df.png)
-<!-- <img src="/img/all_deaplearning/part4/df.png" style="width: 800px;"/> -->
 
 위 데이터프레임을 보면 사용할 독립변수는 X1 ~ X16까지 총 16차원이며, 종속변수 Y는 1차원이지만 분류해야할 값들은 여러개가 있습니다. 따라서 이를 고려해서 차원과
 분류 class 수를 정하면 다음과 같습니다.
