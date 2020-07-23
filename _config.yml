@@ -4,8 +4,8 @@ SEOTitle: Minki's Blog
 header-img: img/home-bg.jpg
 email: atunh9988@naver.com
 description: "안녕하세요. 김민기입니다."
-keyword: "별, 사랑, 시, 하늘"
-url: "https://huangxuan.me"              # your host, for absolute URL
+keyword: "deeplearning, flutter, 서비스 기획"
+url: "https://minkithub.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -71,7 +71,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: minki.me
+ga_domain: https://minkithub.github.io/
 
 
 
