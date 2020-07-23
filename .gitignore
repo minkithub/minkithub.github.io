@@ -29,3 +29,5 @@ _asset_bundler_cache
 _site
 
 CHANGELOG.md
+sw.js
+sw-registration.js
