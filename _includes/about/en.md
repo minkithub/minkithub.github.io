@@ -1,1 +1,1 @@
-introduce myself
+I am a planner who loves design and development.
