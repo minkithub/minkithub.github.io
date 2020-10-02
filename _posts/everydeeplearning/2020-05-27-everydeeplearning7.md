@@ -21,7 +21,7 @@ tags:
 # 들어가기
 
 이번 포스팅에서는 시그모이드 이외에 다양한 활성화 함수를 Neural NetWork 구현에 사용할 예정입니다. 이 포스팅을 보시기 전에
-['Sigmoid로 Neural NetWork 구현하기']()를 읽고 오시면 더 쉽게 이번 포스팅을 이해하실 수 있습니다.
+['Sigmoid로 Neural NetWork 구현하기'](https://minkithub.github.io/2020/05/23/everydeeplearning6/)를 읽고 오시면 더 쉽게 이번 포스팅을 이해하실 수 있습니다.
 
 # 1. Sigmoid가 가진 심각한 단점
 
