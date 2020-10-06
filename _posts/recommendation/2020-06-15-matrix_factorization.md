@@ -80,6 +80,15 @@ $$
 
 이렇게 이번 포스팅을 통해 Matrix Factorization에 대해 간략하게 알아보았습니다. 잘못된 내용은 댓글로 남겨주시고, 다음 포스팅 에서는 ALS에 대해 자세히 알아보겠습니다.
 
+<br>
+
+<center>
+<button type="button" class="navyBtn" onClick="location.href='https://www.paypal.me/Minki94'" style="background-color:transparent;  border:0px transparent solid;">
+  이 포스팅이 도움이 되셨다면 저에케 커피 한잔 사주세요!
+  <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="HTML donation button tutorial"/>
+</button>
+</center>
+
 ## *reference*
 * [https://yeomko.tistory.com/3](https://yeomko.tistory.com/3)
 * [http://sanghyukchun.github.io/95/](http://sanghyukchun.github.io/95/)

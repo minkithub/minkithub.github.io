@@ -81,6 +81,15 @@ Implicit dataset을 활용하는 것이 Explicit dataset을 활용하는 것 보
 
 이번 포스팅으로 추천시스템에 대한 개괄적인 설명은 끝났습니다. 다음 포스팅부터는 알고리즘을 본격적으로 살펴보겠습니다.  
 
+<br>
+
+<center>
+<button type="button" class="navyBtn" onClick="location.href='https://www.paypal.me/Minki94'" style="background-color:transparent;  border:0px transparent solid;">
+  이 포스팅이 도움이 되셨다면 저에케 커피 한잔 사주세요!
+  <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="HTML donation button tutorial"/>
+</button>
+</center>
+
 ## *reference*
 * https://yeomko.tistory.com/3
 * https://lsjsj92.tistory.com/563?category=853217

@@ -385,7 +385,17 @@ for _id, rec, tag_rec in zip(te_ids, item_ret, tag_ret):
 import json
 with open('results.json', 'w', encoding='utf-8') as f:
     f.write(json.dumps(returnval, ensure_ascii=False))
+
 ```
+
+<br>
+
+<center>
+<button type="button" class="navyBtn" onClick="location.href='https://www.paypal.me/Minki94'" style="background-color:transparent;  border:0px transparent solid;">
+  이 포스팅이 도움이 되셨다면 저에케 커피 한잔 사주세요!
+  <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="HTML donation button tutorial"/>
+</button>
+</center>
 
 ## *reference*
 * [카카오 아레나 포럼](https://arena.kakao.com/forum/topics/200)

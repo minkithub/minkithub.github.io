@@ -195,6 +195,15 @@ LURIS에서 확인한 130개소의 평균 공시지가는 행정동 공시지가
 
 이제 경제적인 점검은 할 수 있는 정도로 했다고 생각한다. 이제 다음 시리즈에서는 딥러닝과 머신러닝을 이용하여, 수직빌딩숲의 환경적 효과와, 공원의 실질적인 경제적 효과를 살펴볼 예정이다.
 백번 사람들에게 공원이 환경에 도움이 된다고 말해도 소용이 없을 것이다. 그렇기에 공원의 실질적인 경제적 효과에서는 공원과 공원 주변 아파트의 집값과의 상관관계를 밝히는 방향으로 연구한 내용으로 칼럼을 써볼 생각이다.
+
+<br>
+
+<center>
+<button type="button" class="navyBtn" onClick="location.href='https://www.paypal.me/Minki94'" style="background-color:transparent;  border:0px transparent solid;">
+  이 포스팅이 도움이 되셨다면 저에케 커피 한잔 사주세요!
+  <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="HTML donation button tutorial"/>
+</button>
+</center>
 이번 시리즈를 통해 공원일몰제와 공원의 중요성이 대중들에게 많이 알려졌으면 하는 바람이다.
 
 ## *reference*

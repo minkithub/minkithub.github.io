@@ -59,6 +59,15 @@ print('=================================')
 sess.run(tf.global_variables_initializer())
 ```
 
+<br>
+
+<center>
+<button type="button" class="navyBtn" onClick="location.href='https://www.paypal.me/Minki94'" style="background-color:transparent;  border:0px transparent solid;">
+  이 포스팅이 도움이 되셨다면 저에케 커피 한잔 사주세요!
+  <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="HTML donation button tutorial"/>
+</button>
+</center>
+
 ## *reference*
 * [텐서플로우 기초정리](http://hero4earth.com/blog/learning/2018/01/15/tensor_flow_basics/)
 * [텐서플로우 코리아](https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/api_docs/python/constant_op.html)

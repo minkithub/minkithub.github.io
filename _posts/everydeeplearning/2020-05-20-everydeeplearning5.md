@@ -469,6 +469,13 @@ plt.show
 
 <br>
 
+<center>
+<button type="button" class="navyBtn" onClick="location.href='https://www.paypal.me/Minki94'" style="background-color:transparent;  border:0px transparent solid;">
+  이 포스팅이 도움이 되셨다면 저에케 커피 한잔 사주세요!
+  <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="HTML donation button tutorial"/>
+</button>
+</center>
+
 ## *reference*
 * [모두의 딥러닝](https://www.youtube.com/user/hunkims)
 * [tensorflow_datasets](https://www.tensorflow.org/datasets/overview)
