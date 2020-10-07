@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://minkithub.github.io/sitemap.xml
