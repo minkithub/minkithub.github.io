@@ -1,1 +1,1 @@
-I am a planner who loves design and development.
+I am a planner who likes design and development.
