@@ -1,7 +1,7 @@
 {
-  "name": "Hux Blog",
-  "short_name": "Hux Blog",
-  "description": "About an engineer & designer who loves web.",
+  "name": "Minki's Blog",
+  "short_name": "Minki's Blog",
+  "description": "디자인과 개발을 좋아하는 기획자",
   "icons": [{
     "src": "icons/128.png",
     "sizes": "128x128",
