@@ -9,7 +9,7 @@ header-style: text
 catalog: true
 tags:
   - dart
-  - flutter
+  - Flutter
 ---
 
 *잘못된 내용은 언제든지 밑의 댓글로 알려주세요!*
