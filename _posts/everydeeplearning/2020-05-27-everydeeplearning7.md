@@ -14,6 +14,7 @@ tags:
   - Tensorflow
   - 모두의 딥러닝
   - Gradien Descent
+  - Data Analysis
 ---
 
 *잘못된 내용은 언제든지 밑의 댓글로 알려주세요!*
