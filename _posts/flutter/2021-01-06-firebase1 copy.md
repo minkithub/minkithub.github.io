@@ -111,8 +111,3 @@ vscode를 사용중이라면 iOS 폴더를 우클릭해 Xcode를 열어준 뒤�
   <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="HTML donation button tutorial"/>
 </button>
 </center>
-
-
-## *reference*
-- https://www.appwithflutter.com/flutter-state-management-with-getx/
-
