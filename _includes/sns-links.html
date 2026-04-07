@@ -8,6 +8,14 @@
 <ul class="list-inline">
 {% endif %}
 
+{% assign contact_email = site.contact_email %}
+{% assign linkedin_href = site.linkedin_url %}
+{% if linkedin_href == nil or linkedin_href == "" %}
+  {% if site.linkedin_username %}
+    {% assign linkedin_href = "https://www.linkedin.com/in/" | append: site.linkedin_username %}
+  {% endif %}
+{% endif %}
+
   {% if site.RSS %}
   <li>
     <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
@@ -48,29 +56,19 @@
     </a>
   </li>
   {% endif %}
-  {% if site.facebook_username %}
+  {% if contact_email != nil and contact_email != "" %}
   <li>
-    <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
+    <a href="mailto:{{ contact_email }}">
       <span class="fa-stack fa-lg">
         <i class="fa fa-circle fa-stack-2x"></i>
-        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+        <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
       </span>
     </a>
   </li>
   {% endif %}
-  {% if site.github_username %}
+  {% if linkedin_href != nil and linkedin_href != "" %}
   <li>
-    <a target="_blank" href="https://github.com/{{ site.github_username }}">
-      <span class="fa-stack fa-lg">
-        <i class="fa fa-circle fa-stack-2x"></i>
-        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-      </span>
-    </a>
-  </li>
-  {% endif %}
-  {% if site.linkedin_username %}
-  <li>
-    <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+    <a target="_blank" rel="noopener noreferrer" href="{{ linkedin_href }}">
       <span class="fa-stack fa-lg">
         <i class="fa fa-circle fa-stack-2x"></i>
         <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>

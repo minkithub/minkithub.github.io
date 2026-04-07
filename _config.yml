@@ -3,6 +3,7 @@ title: Maison de learning
 SEOTitle: Minki Blog
 header-img: img/home-bg.jpg
 email: atunh9988@naver.com
+contact_email: mingi8334@gmail.com
 description: "안녕하세요. 김민기입니다."
 keyword: "deeplearning, flutter, 서비스 기획, 빅데이터, python"
 url: "https://minkithub.github.io/"              # your host, for absolute URL
@@ -17,6 +18,7 @@ RSS: false
 github_username:    minkithub
 # twitter_username:   huxpro
 facebook_username:  UOSMinki
+linkedin_url: https://www.linkedin.com/in/minki0331
 #linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -67,6 +69,9 @@ kramdown:
       start_line: 1
 
 
+
+# Comments settings
+comments_enabled: false
 
 # Disqus settings
 disqus_username: https-minkithub-github-io-minki-github-io
