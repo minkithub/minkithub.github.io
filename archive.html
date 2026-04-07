@@ -16,30 +16,34 @@ https://github.com/kitian616/jekyll-TeXt-theme
 <div class="container">
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			{%- assign _archive_posts = site.posts | where_exp: "post", "post.hide_in_archive != true" -%}
 			<!-- Tags (as filter) -->
 			<div id='tag_cloud' class="tags tags-sup js-tags">
 				<a class="tag-button--all" data-encode="">
 					Show All
-					<sup>{{site.posts.size}}</sup>
+					<sup>{{ _archive_posts.size }}</sup>
 				</a>
 
 				{% capture tags %}
-				{% for tag in site.tags %}{% if tag[1].size > 1 %}
-						<a data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}"
+				{% for tag in site.tags %}
+					{% assign _visible_tag_posts = tag[1] | where_exp: "post", "post.hide_in_archive != true" %}
+					{% if _visible_tag_posts.size > 1 %}
+						<a data-sort="{{ _archive_posts.size | minus: _visible_tag_posts.size | prepend: '0000' | slice: -4, 4 }}"
 							data-encode="{{ tag[0] | strip | url_encode }}"
 							class="tag-button"
-							title="{{ tag[0] }}" rel="{{ tag[1].size }}">
+							title="{{ tag[0] }}" rel="{{ _visible_tag_posts.size }}">
 							{{ tag[0] }}
-							<sup>{{tag[1].size}}</sup>
+							<sup>{{ _visible_tag_posts.size }}</sup>
 						</a>__SEPERATOR__
-				{% endif %}{% endfor %}
+					{% endif %}
+				{% endfor %}
 				{% endcapture %}
         {{ tags | split:'__SEPERATOR__' | sort }}
 			</div>
 
             <!-- Article List -->
 			<div class="mini-post-list js-result d-none">
-			{%- assign _sorted_list = site.posts -%}
+			{%- assign _sorted_list = _archive_posts -%}
 			{%- assign _sorted_list = _sorted_list | sort: 'date' -%}
 			{%- assign _sorted_list = _sorted_list | reverse -%}
 
