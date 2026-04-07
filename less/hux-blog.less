@@ -177,6 +177,27 @@ samp {
     margin-top: 44px;
     margin-bottom: 30px;
   }
+  &.mediajournalism-content {
+    h2 {
+      margin: 38px 0 16px;
+      & + p {
+        margin-top: 14px;
+      }
+      &::before {
+        margin-top: 0;
+        margin-bottom: 18px;
+      }
+    }
+    h3 {
+      margin: 26px 0 12px;
+      line-height: 1.45;
+      font-size: 24px;
+      font-weight: 700;
+      & + p {
+        margin-top: 10px;
+      }
+    }
+  }
   h4 {
     font-size: 22px;
     font-weight: 600;
@@ -200,6 +221,20 @@ samp {
     h3 { font-size: 20px; }
     h4 { font-size: 19px; }
     h5, h6 { font-size: 18px; }
+    &.mediajournalism-content {
+      h2 {
+        margin-top: 32px;
+        margin-bottom: 14px;
+        &::before {
+          margin-bottom: 16px;
+        }
+      }
+      h3 {
+        margin-top: 22px;
+        margin-bottom: 10px;
+        font-size: 20px;
+      }
+    }
   }
   ul,
   ol {
@@ -501,6 +536,11 @@ samp {
         margin-bottom: 15px;
       }
     }
+    .post-heading {
+      .subheading.issue-subtitle {
+        color: fade(@gray-dark, 78%);
+      }
+    }
     .tags {
       a, .tag {
         border-color: @gray-dark;
@@ -576,6 +616,16 @@ samp {
       margin: 10px 0 30px;
       margin-top: -5px;
     }
+    .subheading.issue-subtitle {
+      font-size: 18px;
+      line-height: 1.5;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      word-break: keep-all;
+      overflow-wrap: anywhere;
+      margin-top: 4px;
+      margin-bottom: 24px;
+    }
     .meta {
       .serif;
       font-style: italic;
@@ -591,6 +641,9 @@ samp {
       }
       .subheading {
         font-size: 30px;
+      }
+      .subheading.issue-subtitle {
+        font-size: 22px;
       }
       .meta {
         font-size: 20px;
