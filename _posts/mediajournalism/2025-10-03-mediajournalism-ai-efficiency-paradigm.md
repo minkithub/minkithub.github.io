@@ -32,29 +32,29 @@ tags:
 
 <p>2025년 AI 시장은 빅테크와 전문 스타트업이 각자의 장점을 내세우며 치열하게 경쟁하고 있다. 대표적인 사례들을 살펴보면 다음과 같다.</p>
 
-<p>△오픈AI</p>
+### 1. 오픈AI
 
 <p>GPT-5를 통해 동적 추론 시스템을 새롭게 선보였다. 빠른 ‘메인(main)’ 모델과 추론을 위한 ‘씽킹(thinking)’ 모델을 라우터로 전환해 간단한 작업은 신속하게 처리하고 복잡한 문제는 더 많은 연산을 투입·해결하는 방식으로 효율성과 성능을 모두 확보했다.</p>
 
-<p>△구글(Google)</p>
+### 2. 구글(Google)
 
 <p>구글은 제미나이(Gemini) 2.5 제품군으로 대규모 컨텍스트 처리와 비용 제어에 집중했다. 특히 개발자와 기업을 대상으로 한 Pro 모델은 100만 토큰의 컨텍스트 창을 제공해 한번에 더 많은 것들을 분석할 수 있게 했고, 추론 예산(thinkingBudget) 기능을 도입해 개발자가 추론에 사용될 비용도 제어할 수 있게 만들었다.</p>
 
 <p>이외에도 Veo3와 같은 비디오 모델뿐 아니라 최근 화제가 된 이미지 생성 모델 ‘나노 바나나(Gemini 2.5 Flash Image)’와 같이 범분야에서 특화된 모델을 여럿 가지고 있다.</p>
 
-<p>△앤트로픽(Anthropic)</p>
+### 3. 앤트로픽(Anthropic)
 
 <p>앤트로픽의 클로드(Claude) 4는 대중성보다 안정성과 신뢰성에 특화된 모델이다. 특히 개발자들 사이에서 큰 호응을 얻은 ‘클로드 코드(Claude Code)’는 100만 토큰의 방대한 컨텍스트 창을 활용해 전체 코드베이스를 한번에 분석하고 디버깅하는 강력한 성능으로 코딩 시장의 판도를 바꾸고 있다.</p>
 
-<p>△메타(Meta)</p>
+### 4. 메타(Meta)
 
 <p>메타는 대중이 활발하게 쓰는 AI 플랫폼은 없지만 라마(Llama)를 통해 오픈소스 생태계를 주도하고 있다. 누구나 무료로 쉽게 오픈소스를 사용할 수 있게 했으며 사용자가 자유롭게 커스터마이징할 수 있는 것이 특징이다.</p>
 
-<p>△퍼플렉시티(Perplexity)</p>
+### 5. 퍼플렉시티(Perplexity)
 
 <p>2025년 2월에 출시된 소나 라지(Sonar Large) 모델로 실시간 웹 검색 기반 AI 서비스를 제공하는 것이 특징이다. 특히 인용 기능으로 신뢰성을 확보했으며, 최근에는 이를 바탕으로 ‘금융’ 분야에 활발히 진출하고 있다.</p>
 
-<p>△XAi</p>
+### 6. XAi
 
 <p>그록(Grok) AI가 주력으로, Deep Search와 Big Brain Mode를 통해 복잡한 수학·과학 문제 해결에 특화돼 있다. 특히 엑스(X)와의 통합으로 실시간 정보 활용이 가능하다. 이외에도 중국의 딥시크(DeepSeek)는 MOE 아키텍처를 통해 600만 달러(약 83억 7,000만 원) 미만의 저비용으로 GPT-4급 성능의 AI를 구현했고, AI 음성 합성 전문 기업인 일레븐랩스(ElevenLabs)는 사람처럼 자연스러운 AI 오디오 기술로 미디어, 엔터테인먼트 분야에서 빠르게 성장하며 최근 66억 달러(약 9조 2,000억 원)의 기업 가치를 인정받았다.</p>
 
@@ -62,13 +62,13 @@ tags:
 
 <p>최신 AI 모델들의 눈부신 발전 뒤에는 다음과 같은 몇 가지 핵심 AI 생성 기술들이 있다.</p>
 
-<p>△MOE(Mixture-of-Experts)</p>
+### 1. MOE(Mixture-of-Experts)
 
 <p>MOE는 이름에서도 알 수 있듯 여러 전문가(AI)들을 혼합해 효율적인 AI 모델을 만드는 기술을 말한다. 그래서 거대한 단일 신경망 대신, 각기 다른 전문 분야를 가진 여러 개의 작은 신경망으로 모델을 구성한다. 마치 최첨단 공장에 여러 개의 전문화된 분업 라인이 있는 것과 동일하다.</p>
 
 <p>그리고 앞서 GPT-5 모델에서 언급했던 ‘라우터’라고 불리는 게이팅 네트워크가 사용자의 입력값을 파악해 가장 적합한 AI만 선택적으로 활성화시켜 작업을 처리하도록 지시한다. 이 방식의 가장 큰 장점은 효율성이다. 문제 해결에 필요한 전문가만 깨워 일을 시키기 때문에, 거대한 모델 전체를 구동할 필요가 없어 컴퓨팅 비용과 시간을 극적으로 절약할 수 있다. 대표적으로 딥시크가 이 MOE 알고리즘을 극한까지 활용해 적은 비용으로 높은 성능을 이끌어낸 바가 있다.</p>
 
-<p>△RAG(Retrieval-Augmented Generation)</p>
+### 2. RAG(Retrieval-Augmented Generation)
 
 <p>챗봇에 관심이 있다면 RAG라는 단어는 한 번쯤 들어봤을 것이다. RAG는 AI가 부정확한 정보를 생성하는 ‘환각(Hallucination)’을 줄이기 위한 핵심 기술이다. AI가 학습 데이터에만 의존해 답변을 생성하는 대신, 답변을 만들기 전에 외부의 신뢰할 수 있는 데이터베이스(예: 회사 내부 자료, 전문 저널 등)를 먼저 검색하도록 하는 원리다.</p>
 
@@ -76,11 +76,11 @@ tags:
 
 <img src="/img/mediajournalism/ai-efficiency-paradigm/01.png" alt="" style="max-width: 100%;" />
 
+<small class="img-hint">출처 - <a href="https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts">Maarten Grootendorst’s Blog</a></small>
+
 <p>MOE는 거대한 하나의 AI 대신 여러 전문가 AI를 두고, 라우터가 상황에 맞는 전문가만 골라 일을 시키는 방식으로 작동한다.</p>
 
-<p>&lt;출처 - Maarten Grootendorst’s Blog, <a href="https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts%3E">https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts&gt;</a>;</p>
-
-<p>△MCP(Model Context Protocol)</p>
+### 3. MCP(Model Context Protocol)
 
 <p>MCP, 즉 ‘모델 컨텍스트 프로토콜’은 2024년 말 앤트로픽이 발표한 오픈소스 표준으로, AI 모델이 외부 데이터 소스나 도구(API, 파일 시스템, 데이터베이스 등)와 상호작용하는 방식을 통일한 기술이다. 마치 모든 전자기기를 연결하는 USB-C 포트처럼, MCP는 AI 애플리케이션이 어떤 도구나 데이터 소스든 ‘플러그 앤 플레이’ 방식으로 쉽게 연결할 수 있도록 하는 것을 목표로 한다.</p>
 
@@ -88,9 +88,9 @@ tags:
 
 <img src="/img/mediajournalism/ai-efficiency-paradigm/02.png" alt="" style="max-width: 100%;" />
 
-<p>RAG는 AI가 답변을 생성하기 전 외부의 신뢰할 수 있는 데이터베이스를 먼저 검색하도록 하는 구조다.</p>
+<small class="img-hint">출처 - <a href="https://www.elastic.co/what-is/retrieval-augmented-generation?utm_source=chatgpt.com">elastic</a></small>
 
-<p>&lt;출처 – elastic, <a href="https://www.elastic.co/what-is/retrieval-augmented-generation?utm_source=chatgpt.com%3E">https://www.elastic.co/what-is/retrieval-augmented-generation?utm_source=chatgpt.com&gt;</a>;</p>
+<p>RAG는 AI가 답변을 생성하기 전 외부의 신뢰할 수 있는 데이터베이스를 먼저 검색하도록 하는 구조다.</p>
 
 ## AI 기업, 비용과 수익은?
 
