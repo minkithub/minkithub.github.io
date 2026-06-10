@@ -11,7 +11,7 @@
     "bugs": "https://github.com/Huxpro/huxpro.github.io/issues",
     "devDependencies": {
         "chokidar-cli": "^3.0.0",
-        "concurrently": "^9.2.1",
+        "concurrently": "^10.0.3",
         "less": "^4.6.4",
         "less-plugin-clean-css": "^1.6.0",
         "terser": "^5.46.1"
