@@ -126,3 +126,6 @@ page-mathjax: true
 #     #     href: "URL"
 #     # },
 # ]
+
+# Preserve the static project bundles, including Next.js runtime files.
+include: ["_buildManifest.js", "_ssgManifest.js", "_not-found", "_app-*.js", "_error-*.js"]
